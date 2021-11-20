@@ -21,10 +21,10 @@ module.exports = (sequelize) => {
             }
         },
         estimatedTime: {
-            type: DataTypes.TEXT,
+            type: DataTypes.STRING
         },
         materialsNeeded: {
-            type: DataTypes.TEXT,
+            type: DataTypes.STRING
         },
     }, { sequelize });
 
